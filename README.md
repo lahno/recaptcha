@@ -54,6 +54,7 @@ Add the following line to the `require` section of `composer.json`:
         'g-recaptcha-response' => 'required|recaptcha',
     ];
 ```
+3. Перезагрузить капчу: `grecaptcha.reset();`
 
 ### v1 (Legacy)
 1. In your form, use `{!! Recaptcha::render() !!}` to echo out the markup.
